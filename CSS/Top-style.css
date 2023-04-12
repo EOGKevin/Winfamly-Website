@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    /*Mørkgrå*/
+    /* background-color: hsl(0, 0%, 80%); */
+    /*LysGrå*/
+    /* background-color: hsl(0, 0%, 93%); */
+    /*Hvid*/
+    /* background-color: hsl(36, 19%, 95%); */
+}
+
+header {
+    /* background-color: white; */
+    /* background-color: hsl(0, 0%, 91%); */
+    background-color: hsl(36, 19%, 95%);
+}
+
+.sort-top {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    display: flex;
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+}
+
+.luft {
+    margin: 0 8px;
+}
+
+.logind {
+    background-color: white;
+    color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 15px;
+    font-family: 'PT Serif', serif;
+}
+
+.hovedpanel {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 200px;
+    gap: 620px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.linje {
+    margin: 0;
+    /* padding-top: 8px;
+    padding-bottom: 4px; */
+}
+
+.menu {
+    display: flex;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color: white;
+}
+
+.menu-sus {
+    font-family: 'PT sans', sans-serif;
+}
+
+.rwine {
+    margin-left: 220px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+
+.wine {
+    padding-top: 200px;
+    margin: 35px;
+}
+
+.menu-sus a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.bag {
+    float: right;
+    padding: 6px;
+    margin-top: -10px;
+    font-size: 17px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.duo {
+    float: right;
+    margin-top: -10px;
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 20px;
+}
+
+.duo input[type=text] {
+    background-color: hsl(0, 0%, 93%);
+    padding: 4px;
+    margin-top:7px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+}
+
+.duo .zoom {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 0px;
+    
+    font-size: 17px;
+}
+
+.menu-sus img {
+    width: 28px;
+}
+
+main {
+    /* display: flex;
+    justify-content: center; */
+    background-color: hsl(36, 19%, 95%);
+    font-family: 'PT sans', sans-serif;
+}
+
+.only3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sidemidt img {
+    font-size: 17px;
+    width: 110px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background-color: hsl(0, 0%, 91%);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.beer1, .beer2, .beer3, .beer4 {
+    
+    /* background-color: hsl(0, 0%, 91%); */
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+.beer4 {
+    justify-content: center;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 100px;
+}
+
+.knap {
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(166, 92%, 26%);
+    margin-top: -25px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    margin-right: 20px;
+    align-content: center;
+}
+
+.knap > a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.knap > input[type=text] {
+    margin-left: 4px;
+    margin-top: -3px;
+    margin-bottom: -4px;
+    margin-right: 17px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.blue {
+    background-color: white;
+    border-radius: 20px;
+    border-top: 1px solid white;    
+    border-bottom: 10px solid white;
+}
+
+.b1 {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+
+.bb1 {
+    text-align: center;
+}
+
+.blue > p {
+    margin-left: 10px;
+}
+
+.red {
+    background-color: white;
+    border-radius: 20px;
+    border-top: 1px solid white;
+    border-bottom: 10px solid white;
+}
+
+.b2 {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+
+.bb2 {
+    text-align: center;
+}
+
+.red > p {
+    margin-left: 10px;
+}
+
+.yellow {
+    background-color: white;
+    border-radius: 20px;
+    border-top: 1px solid white;
+    border-bottom: 10px solid white;
+}
+
+.b3 {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+
+.bb3 {
+    text-align: center;
+}
+
+.yellow > p {
+    margin-left: 10px;
+}
+
+.brown {
+    background-color: white;
+    border-radius: 20px;
+    margin-right: -70px;
+    border-top: 1px solid white;
+    border-bottom: 10px solid white;
+}
+
+.b4 {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+}
+
+.bb4 {
+    text-align: center;
+}
+
+.brown > p {
+    margin-left: 10px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.sidefod-indhold {
+    background-color: white;
+    padding: 40px 60px;
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    padding-left: 360px;
+    
+}
+
+.navvenstre {
+    display: flex;
+    list-style-type: none;
+}
+
+.navhøjre {
+    flex: 1 0 auto;
+    border-left: 1px solid #dedede;
+    padding-left: 92px;
+    width: auto;
+}
+
+.om, .betingelser, .hjælp {
+    flex: 1;
+    padding: 0 12px;
+    padding-right: 100px;
+    
+    
+}
+
+.overtexter {
+    font-family: serif;
+    font-size: large;
+}
+
+.fod-om > ul, .fod-betingelser > ul, .fod-hjælp > ul {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+li > a {
+    color: black;
+    text-decoration: none;
+}
+
+i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.nederst {
+    padding: 8px 362px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nederst-info > p {
+    font-size: medium;
+}
+
+.kreditkort {
+    display: flex;
+    float: right;
+    margin-right: 90px;
+}
+
+.kreditkort > p {
+    display: flex;
+    padding: 4px;
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.kreditkort > p > img {
+    width: 33px;
+    /* padding-right: 20px; */
+}
